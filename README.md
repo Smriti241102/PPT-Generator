@@ -27,6 +27,7 @@ pip install -r requirements.txt
 ### 4. Run the app
 uvicorn app.main:app
 
+```
 
 ## Info
 The PPT-Generator app transforms input text into structured PowerPoint presentations by leveraging natural language processing (NLP) and the python-pptx library.
@@ -38,6 +39,10 @@ Upon receiving input, the app processes the text to identify key components such
 Template Application and Asset Integration
 
 The app utilizes predefined slide layouts to maintain consistency and professionalism. It removes any template slides post-generation to ensure a clean final product. Visual elements such as fonts, colors, and background designs are applied to align with the selected template, ensuring a cohesive aesthetic throughout the presentation.
+
+Technical Implementation
+
+Developed in Python, the app employs the python-pptx library for PowerPoint file creation and manipulation. Dependencies are managed via a virtual environment, and the setup process is streamlined through a requirements.txt file. The application is designed to be extensible, allowing for future enhancements and customization.
 
 Technical Implementation
 
